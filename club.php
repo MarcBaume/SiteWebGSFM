@@ -74,7 +74,7 @@ Le groupe est ouvert aux enfants et aux adultes. </br></br>
 
 	<fieldset>
 	<Div id="main">
-	<center>	<H2> Entra?ments </h2> </center>
+	<center>	<H2> Entrainements </h2> </center>
 	<fieldset>
 <?php
     // On récupère tout le contenu de la table jeux_video
@@ -87,8 +87,8 @@ Le groupe est ouvert aux enfants et aux adultes. </br></br>
  
  <h3> <?php echo $donnees['jour'] ?> </h3> 
 <p>Lieu: <?php echo $donnees['lieu']  ?><br/></p>
-<p>Horaire: <?php echo $donnees['debut']  ?> ?<?php echo $donnees['fin'] ?> <br/></p>
-<p>Activit? <?php echo $donnees['activite']  ?><br/></p>
+<p>Horaire: <?php echo $donnees['debut']  ?> - <?php echo $donnees['fin'] ?> <br/></p>
+<p>Activité: <?php echo $donnees['activite']  ?><br/></p>
 
 
 
@@ -115,45 +115,47 @@ Le groupe est ouvert aux enfants et aux adultes. </br></br>
  <fieldset>
 <Div id="main">
 <H2>Contacts</H2>
- <FIELDSET>
-<b> Présidents</b></br> 
- Entrainement et informations </br>
-Michel Joly</br>
-Cerneux-Joly 8</br>
-2340 Le Noirmont</br>
- 
-Tél: 079 276 42 19    </br>  
- 
-michel.joly53@gmail.com  </br>
-</FIELDSET>
-</br>
 <FIELDSET>
- <b>Vice présidents </b>  </br>
-Entrainement et informations </b> </br>
-Patrick Jeanbourquin </br>
-2340 Le Norimont</br>
- 
-Tél: 078 629 55 74    </br>  
- 
-jeanbourquin_p@yahoo.fr </br>  
-</FIELDSET>
-<br>
+<b> </b></br> 
 
-<FIELDSET>
-<b>Site web et inscriptions </b></br>
-Marc Baume</br>
+information.gsfm@gmail.com </br>  
+
+</br><b>
+<span style="text-decoration: underline;"> Président</span>
+</b></br> 
+
+Patrick Jeanbourquin</br>
+078/629.55.74</br>
+
+jeanbourquin_p@yahoo.fr   </br>  
+</br>  
+<b>
+<span style="text-decoration: underline;">Vice Président</span>
+</b> </br>
+Claude Oeuvray </br>
+078/862.89.57    </br>  
  
- 
-Tél: 078 907 40 59    </br>  
- 
-info@defichrono.ch </br>  
-</FIELDSET>
- </br>
-<FIELDSET>
-<b>sponsoring</b><br>
-Alexis Montagnat-Rentier<br>
- 
-fotalex38@gmail.com   <br>  
+</br>  
+
+<b><span style="text-decoration: underline;">Trésorier</span> </b></br>
+Michel Joly </br>
+079/276.42.19  </br>  
+</br>  
+<b><span style="text-decoration: underline;">Secrétaire</span> </b></br>
+Noémie Montagnat-Rentier</br>
+(renseignements inscriptions au club adultes)</br>
+078/612.60.03 </br>
+</br>
+<b><span style="text-decoration: underline;">Responsable promotion du club</span>  </b>  </br>  
+Céline Dubois  </br>  
+(renseignements entraînements, JS, inscriptions au club des enfants) 
+079/355.82.60   </br>  
+
+</br>
+
+<b><span style="text-decoration: underline;"> Responsable communication / Informations</span>  </b>  </br>  
+Mavi Garcia    </br>  
+076/331.31.02    </br>  
 </FIELDSET>
 </div>
 	<Div id="main">

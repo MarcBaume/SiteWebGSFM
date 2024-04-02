@@ -112,10 +112,11 @@
         <tr>
            <!-- Course d'orientation -->
            <td>
-               <table style="width: 100%;cursor:pointer;" onclick="location.href=' https://www.juradefichrono.ch/informations2022.php?NbrEtape=1&DateCourse=2022-09-04&Etape=1&NomCourse=Course+Orientation&ID=103'">
-			 		  <Tr>
+               <table style="width: 100%;cursor:pointer;" >
+               
+               <Tr>
                         <td>
-                            <div class="title">Course d'orientation 2022 </div>
+                            <div class="title">Chasse aux lapins de pâques </div>
                         </td>
                     </tr>
 			 		  <Tr >
