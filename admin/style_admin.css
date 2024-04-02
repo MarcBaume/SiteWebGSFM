@@ -1,0 +1,143 @@
+
+body
+{
+ width: 100%; /*taille du navigateur  à modifier*/
+ 
+   margin: auto; /* Pour centrer notre page */
+   margin-top: 0px; /* Pour éviter de coller avec le haut de la fenêtre du navigateur. Essayez d'enlever pour voir ! */
+   margin-bottom: 20px;    /* Idem pour le bas du navigateur */
+   background:  #b4f99e ;
+      font-family:Comic Sans MS;
+   background-attachment:fixed;
+
+}
+
+
+#en_tete
+{
+	height: 149px;
+	background: #C7DCE1 url("images/banner_en_tete.png") 50% 0 no-repeat;
+	border-top: 1px solid #D9F3F9;
+	overflow: hidden;
+}
+
+#en_tete .content {
+	padding: 20px 0px 10px 20px;
+	width: 100%;
+}
+
+}
+.element_droite h3
+{    
+   color: Black;
+   font-family: Arial, "Arial Black", "Times New Roman", Times, serif;
+   text-align: center;
+}
+
+#corps
+{
+ text-align: center; /* Pour centrer le titre */
+margin-top: 15px;
+   margin-left: 28%; /* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+   margin-right: 23%;
+   margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
+   padding: 1px; /* Pou éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+   color: Black;
+  background: rgba(88, 141, 255, 0.1); /* Une couleur de fond pour le corps */
+   border: 1px solid #ddffff;
+   font-family:Comic Sans MS;
+
+}
+#menu
+{  
+   height: 31px;
+   background: #4ae21b;
+   margin-bottom: 0px;
+}
+#menuDeroulant
+{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ border: 0;
+ position: absolute;
+ top: 150px;
+ left: 200px;
+}
+#menuDeroulant li
+{
+ float: left;
+ width: 200px;
+ margin: 0;
+ padding: 0;
+ border: 0;
+background: #4ae21b;
+}
+#menuDeroulant .sousMenu
+{
+display: none;
+ list-style-type: none;/* enleve puce*/
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+#menuDeroulant .sousMenu li
+{
+ float: none;
+ margin: 0;
+ padding: 0;
+ border: 1px solid #fff;;
+  width: 199px;
+ border-top: 1px solid transparent;
+ border-right: 1px solid transparent;
+}
+#menuDeroulant li a:link, #menuDeroulant li a:visited
+{
+ display: block;
+ height: 1%;
+ color: #FFF;
+ margin: 0;
+ padding: 4px 8px;
+ border-right: 1px solid #fff;
+ text-decoration: none;
+}
+#menuDeroulant li a:hover { background-color: #F2462E; }
+#menuDeroulant li a:active { background-color: #5F879D; }
+
+#menuDeroulant .sousMenu li a:link,
+#menuDeroulant .sousMenu li a:visited
+{
+ 
+ color: #FFF;
+ margin: 0;
+ border: 0;
+ text-decoration: none;
+background: #4ae21b;
+}
+#menuDeroulant .sousMenu li a:hover
+{
+ background-image: none;
+ background-color: #F2462E;
+}
+#menuDeroulant li:hover > .sousMenu { display: block; }
+
+td/* Les cellules d'en-tête */
+{
+   font-family: Arial, "Arial Black", Times, "Times New Roman", serif;
+   border: 1px solid black;
+
+  padding: 10px; 
+
+ 
+}
+
+table
+{
+   border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+
+ 
+
+
+
+

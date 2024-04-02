@@ -1,0 +1,460 @@
+﻿
+body
+{
+ /*width: 100%; taille du navigateur  à modifier*/
+   width: auto;
+  margin: auto;
+	font-size:16px;
+	font-family: Candara, Times,arial;
+	margin:0 auto; /* Pour centrer notre page */
+   margin-top: 0px; /* Pour éviter de coller avec le haut de la fenêtre du navigateur. Essayez d'enlever pour voir ! */
+   margin-bottom: 20px;    /* Idem pour le bas du navigateur */
+   background:  url("../images/fond.jpg")50% 0 no-repeat;
+   background-position: center;
+   background-attachment:fixed; /* fond d'écran fixe*/
+}
+
+
+.img
+{
+	 width: auto;
+}
+ .label 
+ {
+  margin-left: 40%;
+	display: block;
+	width: 250px;
+	float: left;
+ }
+.title
+{
+	padding : 10px;
+	font-weight: bold;
+	font-size: 120%;
+	margin : 10px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+background: #1e8ac2;
+ color: white;
+	padding-left : 30px;
+}
+/* Si on utilise un petit écran (que ce soit avec un ordinateur dans une petite fenêtre ou avec un smartphone), les titres sont réduits */
+@media only screen and (max-width: 320px) {
+.title {
+font-size: 3em;
+}
+}
+.titleCenter
+{
+	margin : 10px;
+	text-align: center;
+	padding : 10px;
+	font-weight: bold;
+	font-size: 120%;
+	margin-top: 20px;
+	margin-bottom: 5px;
+background: #00b4ff;
+}
+.title2
+{
+	margin : 10px;
+	padding : 10px;
+	font-weight: bold;
+	font-size: 5em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+list-style-type: none;
+ border: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+background: #b3f3fa;
+}
+.boldText{
+    font-weight: bold;
+}
+
+
+#Information fieldset 
+ {
+  background: rgba(36, 174,232, 0.10); /* Une couleur de fond pour le corps */
+  border : none;
+	margin-top: 20px; 
+ }
+
+#Information table
+ {
+  margin-top:15px;
+   text-align: Left;
+ background: rgba(36, 174,232, 0.25); /* Une couleur de fond pour le corps */
+ }
+#image
+{
+/*margin: auto; */
+  margin: 0 auto;
+ margin-top: 10px;
+  margin-bottom: 10px;
+width: auto;
+ position: center;
+	height: 300px;
+	background:  url("../images/membre4.png")100%  0 no-repeat;
+ background-position:  center ;
+}
+#en_tete
+{
+  margin: 0 auto;
+ margin-top: 10px;
+width: auto;
+
+}
+#info fieldset
+{
+border: none;
+border-bottom:1px solid #C0C0C0;
+text-align: left;
+padding: 10px;
+}
+#event tr
+{
+ background: #C0C0C0;
+}
+#menu
+{ 
+
+    margin: 0 auto;
+	 margin-top:10;
+    display: block;
+	position:center;
+    overflow: hidden;
+	width: auto;
+	height: 40px;
+    background: #00b4ff/* rgba(48, 48, 48, 0.8); /* Une couleur de fond pour le corps */
+}
+#menuDeroulant
+{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+#menuDeroulant li
+{
+ float: left;
+}
+#corps li
+{
+color: black;
+  margin: 0 auto;
+    display: block;
+	position:center;
+    overflow: hidden;
+	width: 200px;
+	height: 40px;
+list-style-type: none;/* enleve puce*/
+}
+#menuDeroulant .sousMenu
+{
+display: none;
+list-style-type: none;/* enleve puce*/
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+#menuDeroulant .sousMenu li
+{
+
+ float: none;
+ margin: 0;
+ padding: 0;
+ border: 0;
+ width: auto;
+ border-top: 1px solid #fff;
+ border-right: 1px solid #fff;
+}
+#info li
+{
+color: white;
+ vertical-align: middle;
+ text-decoration: none;
+ color: black;
+	 height: 55px;
+
+	background:  url("../images/bouton3.png") ;	
+ display: block;
+ margin: auto;
+ margin-top: auto;
+ margin-bottom: auto;
+ padding:20px;
+width: 150px;
+
+ float: left;
+ padding: 0;
+ border: 0;
+ text-align : center;
+}
+#info li a:link, #info li a:visited
+{
+ vertical-align: middle;
+color: black;
+ text-decoration: none;
+}
+#menuDeroulant li a:link, #menuDeroulant li a:visited
+{
+ display: block;
+ height: 1%;
+ color: #000;
+ margin: 0;
+ padding: 7px 48px;
+ border-right: 1px solid #fff;
+ text-decoration: none;
+}
+#menuDeroulant li a:hover { background-color: #F2462E; }
+#menuDeroulant li a:active { background-color: #5F879D; }
+
+#menuDeroulant .sousMenu li a:hover
+{
+ background-image: none;
+ background-color: #F2462E;
+}
+#resultat h3
+{
+text-align: left;
+}
+#corps
+{
+
+	
+    margin: 0 auto;
+
+width: auto;
+ text-align: left; /* Pour centrer le titre */
+/*margin-top: 15px;*/
+  position: center;
+   margin-bottom: 20px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
+   padding: 1px; /* Pou éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+   color: Black;
+/* background: rgba(255, 255, 255, 0.5);   Une couleur de fond pour le corps */
+  background-position: center;
+  /* border: 1px solid #ffffff;*/
+
+}
+
+ #formulaire
+ {
+
+ text-align: left;
+ }
+#formulaire p
+ {
+
+ background: #C0C0C0;
+ 
+ }
+ #formulaire  label 
+ {
+  margin-left: 20px;
+	display: block;
+	width: 210px;
+	float: left;
+ }
+ #formulaire input
+ {	
+
+  margin-left:100px;
+
+ }
+#int_corps
+{
+ margin: 10;
+ padding: 10px;
+ }
+#news
+{
+margin:5px;
+padding: 0px; 
+float: right;
+/*position:absolute;*/
+ border-radius: 10px;
+ margin-top: 15px;
+margin-right:15px;
+width:250px; 
+border: none;
+
+  background: rgba(90, 90, 90, 0.5); /* Une couleur de fond pour le corps */
+	}
+	.imgCenter
+ {
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+
+ }
+#main
+{
+margin:10px;
+padding-left: 10px; 
+padding-bottom: 2px; 
+padding-top: 2px; 
+position: center;
+border-radius: 10px;
+border: none;
+
+  background: rgba(90, 90, 90, 0.5); /* Une couleur de fond pour le corps */
+
+	}
+	#main	 fieldset
+{
+	border: 1px;
+	position : center;
+	margin : 10px;
+border-radius: 9px;
+background:  url("../images/fond_fieldset4.jpg") ;	
+
+}
+#news	 fieldset
+{
+	border: 1px;
+width:217px; 
+border-radius: 9px;
+background:  url("../images/fond_fieldset4.jpg") ;	
+}
+ fieldset
+{
+	width : 90%;
+	border: none;
+	border-image: url("../images/border.png") 30 30 repeat;
+border-radius: 9px;
+margin : 5%;
+
+}
+#TableauResulat 
+{
+	 width: auto;
+}
+#TableauResulat table
+{
+	margin:10px;
+	font-size: 12px;
+/*	    table-layout: fixed;*/
+   width: auto;
+     border-collapse: collapse;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+#TableauResulat th
+{
+width:auto;
+padding-left : 20px;
+    background-color: #1e8ac2 ;
+    color: white;
+  height: 30px;
+    text-align: left;
+	  border-bottom: 1px solid #ddd;
+}
+
+#TableauResulat td
+{
+	width:auto;
+  height: 15px;
+  padding-left : 20px;
+    padding: 10px;
+    text-align: Left;
+ border-bottom: 1px solid #ddd;
+}
+#TableauResulat tr:nth-child(even) {background-color: #f2f2f2;}
+#TableauResulat tr
+{
+
+table-layout: fixed;
+}
+#TableauCat table
+{
+width:auto;
+margin : 10px;
+
+}
+#TableauCat th
+{
+width:auto;
+padding-left : 20px;
+  height: 30px;
+    text-align: left;
+	  border-bottom: 1px solid #ddd;
+}
+#TableauCat td
+{
+	width:auto;
+  height: 15px;
+  padding-left : 20px;
+    padding: 10px;
+    text-align: Left;
+ border-bottom: 1px solid #ddd;
+}
+#TableauCat tr:nth-child(even) {background-color: #f2f2f2;}
+#step label
+{
+	display: block;
+	width: 100px;
+	float: left;
+}
+#step input, #step textarea
+{
+background-color: #CCCCCC;
+}
+#image input
+{background-color:#FFFFFF;
+}
+#Information p 
+ {
+	   position: center;
+  padding: 10px;
+  /*background: rgba(36, 174,232, 0.25);  Une couleur de fond pour le corps */
+ }
+ p 
+ {
+  padding: 10px;
+  background: rgba(36, 174,232, 0.25);  /*Une couleur de fond pour le corps */
+ }
+#font_page
+{
+margin: 0; 
+display: block ; 
+text-align: right; 
+position:absolut; 
+ text-align: center; /* Pour centrer le titre */
+font-size: 10px;
+width:auto;
+ bottom: 0;
+
+}
+
+#tabinfo table
+{
+	margin-top : 10px;
+     border-collapse: collapse;
+ font-family: Arial, Helvetica, sans-serif;
+}
+#tabinfo th
+{
+    background-color: #1e8ac2 ;
+    color: white;
+  height: 30px;
+    text-align: Left;
+	  border-bottom: 1px solid #ddd;
+}
+#tabinfo td
+{
+  height: 15px;
+    padding: 10px;
+    text-align: Left;
+ border-bottom: 1px solid #ddd;
+}
+.title table
+{
+    border-collapse : collapse;
+}
+.title td
+{
+    padding: 10px;
+}
+#tabinfo tr:nth-child(even) {background-color: #f2f2f2;}

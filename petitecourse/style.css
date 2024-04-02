@@ -1,0 +1,150 @@
+
+body
+{
+ width: 100%;
+ background:blue;
+  
+   margin: auto; /* Pour centrer notre page */
+   margin-top: 0px; /* Pour éviter de coller avec le haut de la fenêtre du navigateur. Essayez d'enlever pour voir ! */
+   margin-bottom: 20px;    /* Idem pour le bas du navigateur */
+   background:  white;
+   background-position: 0px 180px;
+      font-family:Comic Sans MS;
+   
+ }
+#logo
+{
+ margin: auto; 
+	height: 180px;
+	background:  url("images/logo.png")0 0 no-repeat;
+	float:right;
+	width: 85px;
+}
+#menu_vertical li
+{
+ float: left;
+padding:0;
+padding-left:10px;
+ border: 0;
+}
+#menu_vertical
+{
+list-style-type: none;
+ margin: 0;
+ padding: 0;
+ border: 0;
+width:75%;
+float: right;
+background: green;
+margin-right:5%;
+}
+#menu_vertical li a:link, #menu_vertical li a:visited
+{
+ display: block;
+ padding: 4px 8px;
+ height: 1%;
+ color: #FFF;
+ margin: 0;
+ border-right: 1px solid #fff;
+ text-decoration: none;
+}
+#menu_vertical li a:hover { background-color: #FFFFFF; 
+color:black;}
+
+ #texte
+ {
+ height: 149px;
+  background:url("images/texte.gif")50% 0 no-repeat ;
+ float:right;
+ width: 750px;
+ }
+ #menu_horizontal
+{
+vertical-align: top;
+list-style-type: none;
+ width:10%;
+ padding: 15px;/*marge dans le corps*/
+ margin-top:15px;
+ float:left;
+ margin-left:5%;
+ border: 5px #70ff00 outset;
+ border-radius: 5px;
+ box-shadow: 6px 6px 10px black inset; 
+}
+#menu_horizontal li a:link, #menu_horizontal li a:visited
+{
+ display: block;
+ padding: 4px 8px;
+ height: 1%;
+ color: #000;
+ margin: 0;
+ border-right: 1px solid #fff;
+ text-decoration: none;
+}
+#menu_horizontal li a:hover { background-color: #70ff00;
+color:black;}
+
+ #corps
+ {
+ width:72.5%;
+   padding: 15px;/*marge dans le corps*/
+ margin-top:15px;
+ float:right;
+ margin-right:5%;
+  border: 5px #70ff00 outset;
+  border-radius: 5px;
+  box-shadow: 6px 6px 10px black inset; 
+ }
+ #step fieldset
+{
+ background-color : #DDF1F6;
+border: 1px #006100 outset;
+}
+#step label
+{
+	display: block;
+	width: 200px;
+	float: left;
+}
+#step input, #step textarea
+{
+background-color: #CCCCCC;
+}
+#image input
+{background-color:#FFFFFF;
+}
+
+
+ #onglets
+{
+    font : bold 11px  arial;
+    list-style-type : none;
+    padding-bottom : 24px; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
+    border-bottom : 1px solid #9EA0A1;
+    margin-left : 0;
+}
+#onglets li
+{
+    float : left;
+    height : 43px; /* à modifier suivant la taille de la police pour centrer le texte dans l'onglet */
+    background-color: #F4F9FD;
+    margin : 2px 2px 0 2px !important;  /* Pour les navigateurs autre que IE */
+    margin : 1px 2px 0 2px;  /* Pour IE  */
+    border : 1px solid #9EA0A1;
+}
+#onglets li.active
+{
+    border-bottom: 1px solid #fff;
+    background: white ;
+}
+#onglets a:hover
+{
+    background-color : #33E000;
+}
+#onglets a
+{
+    display : block;
+    color : black;
+    text-decoration : none;
+    padding : 4px;
+}
