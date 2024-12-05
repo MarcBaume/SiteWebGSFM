@@ -9,7 +9,7 @@
         <Tr>
               <!-- Course des Franches -->
             <td>
-                <table style="width: 100%;cursor:pointer;"  onclick="location.href='https://defichrono.ch/informations2023.php?NbrEtape=1&DateCourse=2024-06-14&Etape=1&NomCourse=Course+des+Franches&ID=106'">
+                <table style="width: 100%;cursor:pointer;"  onclick="location.href='https://defichrono.ch/informations2023.php?NbrEtape=1&DateCourse=2025-06-13&Etape=1&NomCourse=Course+des+Franches&ID=106'">
 				<Tr>
                         <td>
                             <div class="title">Course des Franches </div>
@@ -18,7 +18,7 @@
                     <Tr >
                         <td>
 							
-                            <a  class="ImgVignette"><img src="vignettes/VignettesCourseDesFranches.jpg"   alt=""  /></a>
+                            <a  class="ImgVignette"><img src="vignettes/VignettesCourseDesFranches2025.jpg"   alt=""  /></a>
                         </td>
                     </tr>
                     
@@ -85,32 +85,13 @@
                         </tr>
                         <Tr >
                             <td>
-                                <a  class="ImgVignette"><img src="vignettes/VignetteTournoi.jpg"   alt=""  /></a>
+                                <a  class="ImgVignette"><img src="vignettes/VignetteTournoi2024.jpg"   alt=""  /></a>
                             </td>
                         </tr>
                     
                     </table>
-            </td>    		
-        <!-- Vertical des Franches -->
-            <td>
-                    <table style="width: 100%;cursor:pointer;" onclick="location.href='VerticaleDesFranches.php'">
-                        <Tr>
-                            <td>
-                                <div class="title">La Verticale des Franches  2022</div>
-                            </td>
-                        </tr>
-                        <Tr >
-                            <td>
-                                <a class="ImgVignette" ><img src="vignettes/VignettesVertical.jpg"   alt=""  /></a>
-                            </td>
-                        </tr>
-                    
-                    </table>
-            </td>
-        </tr>
-         <!-- Ligne suivante -->
-        <tr>
-           <!-- Course d'orientation -->
+            </td> 
+            <!-- Course d'orientation -->
            <td>
                <table style="width: 100%;cursor:pointer;" >
                
@@ -126,6 +107,26 @@
                     </tr>
              
                 </table>
+            </td>   		
+      
+        </tr>
+         <!-- Ligne suivante -->
+        <tr>
+             <!-- Vertical des Franches -->
+             <td>
+                    <table style="width: 100%;cursor:pointer;" onclick="location.href='VerticaleDesFranches.php'">
+                        <Tr>
+                            <td>
+                                <div class="title">La Verticale des Franches  (Archive)</div>
+                            </td>
+                        </tr>
+                        <Tr >
+                            <td>
+                                <a class="ImgVignette" ><img src="vignettes/VignettesVertical.jpg"   alt=""  /></a>
+                            </td>
+                        </tr>
+                    
+                    </table>
             </td>
             <td>
 			<table style="width: 100%;cursor:pointer;"  onclick="location.href='TourDuJura/index2021.php'">

@@ -4,7 +4,7 @@
    <center>
    <ul id="menuDeroulant">
     <li >
- <a href="https://defichrono.ch/informations2023.php?NbrEtape=1&DateCourse=2023-06-16&Etape=1&NomCourse=Course+des+Franches&ID=106">Course des Franches</a>
+ <a href="https://defichrono.ch/informations2023.php?NbrEtape=1&DateCourse=2024-06-14&Etape=1&NomCourse=Course+des+Franches&ID=106">Course des Franches</a>
  </li>
  <li >
  <a href="club.php">Le Club</a>

@@ -13,6 +13,19 @@
  <h3> Album photo </h3>
  </div>
  <Div id="main">
+ <h2> 2024 </h2>
+ <fieldset>
+ <a href=" https://photos.app.goo.gl/kj82X7fQdWBruUaS7" class="lightbox"target="_blank"><img src="photo/cf24_adultes2.jpg"  Height=170px alt="" title="Cliquez pour agrandir" /></a><a>   </a>
+  
+
+ <a href="https://photos.app.goo.gl/2nhp6JPACxz5DmHn8" class="lightbox"target="_blank"><img src="photo/cf24_adultes.jpg"  Height=170px alt="" title="Cliquez pour agrandir" /></a><a>   </a>
+   <a href="https://photos.app.goo.gl/Ts3o1dBT2yXoYaGc6" class="lightbox"target="_blank"><img src="photo/cf24_ambiances.jpg"  Height=170px alt="" title="Cliquez pour agrandir" /></a><a>    </a>
+    <a href=" https://photos.app.goo.gl/3U9RVPFtjwPvmx958" class="lightbox"target="_blank"><img src="photo/cf24_enfants.jpg"  Height=170px alt="" title="Cliquez pour agrandir" /></a><a>   </a>
+
+ 
+ </fieldset>
+ </div>
+ <Div id="main">
  <h2> 2023 </h2>
  <fieldset>
  <a href="https://photos.google.com/share/AF1QipNlrHvzmsJ-EWdVzry6ipqhxn_NiIhJ2jmUxT2JiB6NHDHm73fIGOXCSBGSk-wqdQ?key=eUpCUzFqSm5hNngtNUdDcDFSaEloZkJtRlQ4ZE1R" class="lightbox"target="_blank"><img src="photo/cf23_adultes.JPG"  Height=170px alt="" title="Cliquez pour agrandir" /></a><a>   </a>
