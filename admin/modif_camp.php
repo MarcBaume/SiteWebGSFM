@@ -15,13 +15,13 @@
 	 
 try
 {
-    // On se connecte à MySQL
+    // On se connecte ï¿½ MySQL
     $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
 	$bdd = new PDO('mysql:host=dxvv.myd.infomaniak.com;dbname=dxvv_gsfranchesmontagnesch1', 'dxvv_christopheJ', 'er3z4aet1234', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 
-    // On récupère  une valeur aléatoire dans la base de donné
+    // On rï¿½cupï¿½re  une valeur alï¿½atoire dans la base de donnï¿½
     $reponse = $bdd->query('SELECT * FROM accueil  WHERE page = \'camp\' LIMIT 1');
-    // On affiche chaque entrée une à une
+    // On affiche chaque entrï¿½e une ï¿½ une
      $donnees = $reponse->fetch();
 	  $titre= nl2br($donnees['titre']);
 	 $texte= nl2br($donnees['texte']);
@@ -41,24 +41,20 @@ try
 
     <?php
 
-    $reponse->closeCursor(); // Termine le traitement de la requête
+    $reponse->closeCursor(); // Termine le traitement de la requï¿½te
 
 }
 catch(Exception $e)
 {
-    // En cas d'erreur précédemment, on affiche un message et on arrête tout
+    // En cas d'erreur prï¿½cï¿½demment, on affiche un message et on arrï¿½te tout
     die('Erreur : '.$e->getMessage());
 }
 
 ?>
 
-
-
-
-
-   <form method="post" action="envoie_accueil.php" enctype= "multipart/form-data">
+   <form method="post" action="CibleModifCamp.php" enctype= "multipart/form-data">
 	<Fieldset>
-	<legend> Modification page camp ténéro</legend>
+	<legend> Modification page camp</legend>
 	<input type="hidden" name="page" value="camp"/>
 
 	<p><label for="nom">Titre</label> : <textarea name="titre" id="titre"tabindex="50" rows="4" cols="80"   ><?php echo($donnees['titre']);?></textarea><br/><br/>
@@ -69,7 +65,7 @@ catch(Exception $e)
 	</form>
 	
 	
-	<form method="post" action="envoie_photo.php" enctype= "multipart/form-data">
+	<form method="post" action="CibleModifPhotoCamp.php" enctype= "multipart/form-data">
 	<input type="hidden" name="page" value="camp"/>
 		<label for="photo">photo:</label><input type="file"  name='photo' />
 		<input TYPE="image" src="images/mod.JPG"title="modifier" />

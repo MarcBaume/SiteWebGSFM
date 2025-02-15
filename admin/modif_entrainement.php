@@ -11,18 +11,18 @@
  <?php include("menu_admin.php"); ?> 
 <div id="corps">
 
-	<form method="post" action="delete_entrainement.php">
+	<form method="post" action="CiblesDeleteEntrainement.php">
 	  <?php
 	 
 try
 {
-    // On se connecte à MySQL
+    // On se connecte ï¿½ MySQL
     $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
  
 	$bdd = new PDO('mysql:host=dxvv.myd.infomaniak.com;dbname=dxvv_gsfranchesmontagnesch1', 'dxvv_christopheJ', 'er3z4aet1234', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 
     $reponse = $bdd->query('SELECT * FROM Entrainement ORDER BY num ASC');
-    // On affiche chaque entrée une à une
+    // On affiche chaque entrï¿½e une ï¿½ une
     while ($donnees = $reponse->fetch())
     {
     ?>
@@ -35,18 +35,15 @@ echo "<input type=\"radio\" name=\"supp\"  value=\"".$donnees['ID']."\">"; echo 
 	<p>	
 	Horaire: de
 	 
-<?php echo realpath('modif_event.php'); ?>
          <?php echo  $donnees['debut']; ?> 
 	
-	 à
-	 
        <?php echo $donnees['fin']; ?>   </p>
 
 
          <p>Lieu: <?php echo $donnees['lieu']; ?> </p>
 	
 	
-       <p>  Activité:<?php echo $donnees['activite']; ?></p>
+       <p>  ActivitÃ©:<?php echo $donnees['activite']; ?></p>
 
         <p> Remarque:<?php echo $donnees['remarque']; ?> </p>
 </fieldset>
@@ -54,12 +51,12 @@ echo "<input type=\"radio\" name=\"supp\"  value=\"".$donnees['ID']."\">"; echo 
 
     }
     
-    $reponse->closeCursor(); // Termine le traitement de la requête
+    $reponse->closeCursor(); // Termine le traitement de la requï¿½te
 
 }
 catch(Exception $e)
 {
-    // En cas d'erreur précédemment, on affiche un message et on arrête tout
+    // En cas d'erreur prï¿½cï¿½demment, on affiche un message et on arrï¿½te tout
     die('Erreur : '.$e->getMessage());
 }
 ?>
@@ -70,9 +67,9 @@ catch(Exception $e)
 
 
 
-   <form method="post" action="envoie_entrainement.php" enctype= "multipart/form-data">
+   <form method="post" action="CibleAddEntrainement.php" enctype= "multipart/form-data">
 	<Fieldset>
-	<legend> ajout d'un entraînement</legend>
+	<legend> ajout d'un entraÃ®nement</legend>
 	    <p><label for="jour">Jour</label><select name="jour">
 	   <option value="Lundi">Lundi</option>
 	   <option value="Mardi">Mardi</option>
@@ -85,7 +82,7 @@ catch(Exception $e)
 	<p><label for="nom">Debut</label> : <input type="text" name="debut" id="debut"tabindex="20"/>
 	<label for="nom">Fin</label> : <input type="text" name="fin" id="fin"tabindex="30"/></p>
 	<p><label for="nom">Lieu</label> : <input type="text" name="lieu" id="lieu"tabindex="40"size="60"/></p>
-	<p><label for="nom">Activité</label> : <input type="text" name="activite" id="activite"tabindex="50"  size="100"/></p>
+	<p><label for="nom">ActivitÃ©</label> : <input type="text" name="activite" id="activite"tabindex="50"  size="100"/></p>
 	<p><label for="nom">Remarque</label> : <textarea name="remarque" id="remarque"tabindex="60" rows="20" cols="80"  ></textarea><br/><br/>
 	<input type="Submit" value="ajouter" name="ajouter"/>
 	</fieldset>

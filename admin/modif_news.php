@@ -36,7 +36,7 @@ try
 	
     ?>
 		<tr>
-			<form method="post" action="delete_news.php">
+			<form method="post" action="CibleDeleteNew.php">
 
 
 	<!-- ajout d'une cellule cacher avec la valeur de la catégorie -->
@@ -74,7 +74,7 @@ catch(Exception $e)
 
 <fieldset>
 <legend> Ajout d'une nouvelle news </legend>
-   <form method="post" action="traitement.php">
+   <form method="post" action="CibleAddNews.php">
        
        <textarea name="text" rows="8" cols="32" id="text" tabindex="80"></textarea><br/>
 	   <p><label for="text">Auteur</label> : <input type="text" name="Auteur" id="Auteur"tabindex="90"/></p>

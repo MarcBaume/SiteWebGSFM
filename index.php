@@ -3,7 +3,7 @@
 
 <?php include("head.php"); ?>
    <body>
-   <a  class="ImgVignette"><img style="width:400px;" src="images/logo_GSFM.png"   alt=""  /></a>
+   <a  ><img style="width:400px;" src="images/logo_GSFM.png"   alt=""  /></a>
 </br>
     <table style="width: 100%;">
         <Tr>
@@ -12,13 +12,15 @@
                 <table style="width: 100%;cursor:pointer;"  onclick="location.href='https://defichrono.ch/informations2023.php?NbrEtape=1&DateCourse=2025-06-13&Etape=1&NomCourse=Course+des+Franches&ID=106'">
 				<Tr>
                         <td>
-                            <div class="title">Course des Franches </div>
+                           
                         </td>
                     </tr>
                     <Tr >
                         <td>
-							
-                            <a  class="ImgVignette"><img src="vignettes/VignettesCourseDesFranches2025.jpg"   alt=""  /></a>
+                        <a class="title">
+                            Course des Franches 
+</a>
+                            <img class="imgIndex" src="vignettes/VignettesCourseDesFranches2025.jpg"   alt=""  />
                         </td>
                     </tr>
                     

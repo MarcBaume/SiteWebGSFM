@@ -16,7 +16,7 @@ echo $supp;
 	$_POST['supp'],
 	));
 
-header('Location: mod_news.php');
+header('Location: modif_news.php');
 
 }
 catch(Exception $e)

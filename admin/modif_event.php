@@ -15,22 +15,22 @@
 <div id="corps">
 <center>
 <table>
-	<h3> Modification des évenements</h3>
+	<h3> Modification des Ã©venements</h3>
 			<th width="5%">Date </th>
 		<th width="20%"> Nom</th>
 		<th width="20%"> Lieu</th>
-<form method="post" action="delete.php">
+<form method="post" action="CibleDeleteEvent.php">
 		<?php
 try
 {
-    // On se connecte à MySQL
+    // On se connecte ï¿½ MySQL
     $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
 	$bdd = new PDO('mysql:host=dxvv.myd.infomaniak.com;dbname=dxvv_gsfranchesmontagnesch1', 'dxvv_christopheJ', 'er3z4aet1234', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 
-    // On récupère tout le contenu de la table jeux_video
+    // On rï¿½cupï¿½re tout le contenu de la table jeux_video
     $reponse = $bdd->query('SELECT * FROM Event_2');
     
-    // On affiche chaque entrée une à une
+    // On affiche chaque entrï¿½e une ï¿½ une
     while ($donnees = $reponse->fetch())
     {
     ?>
@@ -46,11 +46,11 @@ echo "<input type=\"radio\" name=\"num\"  value=\"".$donnees['id']."\">";
 </tr>
     <?php
     }
-    $reponse->closeCursor(); // Termine le traitement de la requête
+    $reponse->closeCursor(); // Termine le traitement de la requï¿½te
 }
 catch(Exception $e)
 {
-    // En cas d'erreur précédemment, on affiche un message et on arrête tout
+    // En cas d'erreur prï¿½cï¿½demment, on affiche un message et on arrï¿½te tout
     die('Erreur : '.$e->getMessage());
 }
 ?>
@@ -61,26 +61,15 @@ catch(Exception $e)
 <input type="submit" value="delete" />
 </form>
 <fieldset>
-<legend> Ajout évenement</legend>
-   <form method="post" action="send.php">
-   <p><label for="date">Date (jj/mm/aa)</label> : <input type="text" name="date" id="date" tabindex="5" /></p>
+<legend> Ajout de nouvelle Ã©venement</legend>
+   <form method="post" action="CibleAddEvent.php">
+   <p><label for="date">Date (jj.mm.aa)</label> : <input type="text" name="date" id="date" tabindex="5" /></p>
        <p><label for="nom">Nom </label> : <input type="text" name="nom" id="nom" tabindex="10" /></p>
 	   <p><label for="lieu">Lieu</label> : <input type="text" name="lieu" id="lieu" tabindex="30" /></p>
        
 <input type="submit" value="Ajouter" />
 </fieldset>
 </form>
-  <form method="post" action="delete.php">
-   
-       
-
-
-
-
-
-
-
-
 	
   </div>
 </html>
