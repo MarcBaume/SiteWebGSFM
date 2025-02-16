@@ -1,0 +1,23 @@
+ID;Départ ;Arrivée;km;d+;d-;Heure Start;Temps;KM Total
+1;Le Noirmont;Cerneux-Godat;8.63;258;217;05:00;01:15;8.63
+2;Cerneux-Godat;Les Bois;10.87;539;455;06:15;01:45;19.5
+3;Les Bois;Cerneux Veusil;6.8;127;76;08:00;01:00;26.3
+4;Cerneux Veusil;Tramelan;15.22;413;569;09:00;02:30;41.52
+5;Tramelan;Bellelay;10.18;378;340;11:30;01:30;51.7
+6;Bellelay;Moutier;18.62;465;883;13:00;03:00;70.32
+7;Moutier;Rebeuvelier;11.81;777;653;16:00;02:00;82.13
+8;Rebeuvelier;Mervelier;12.1;436;526;18:00;01:30;94.23
+9;Mervelier;Montsevelier;7.81;596;501;19:30;01:30;102.04
+10;Montsevelier;Soyhière;15.11;601;869;21:00;02:30;117.15
+11;Soyhière;Ederswiller;8.93;358;198;23:30;01:30;126.08
+12;Ederswiller;Lucelle;10.08;258;221;01:00;01:30;136.16
+13;Lucelle;Vendlincourt;11.64;323;494;02:30;02:00;147.8
+14;Vendlincourt;Damphreux;11.73;148;184;04:30;01:30;159.53
+15;Damphreux;Bure;13.9;441;278;06:00;02:00;173.43
+16;Bure;Grand Fontaine;12.28;165;235;08:00;01:30;185.71
+17;Grand Fontaine;Roche d'or;5.89;353;77;09:30;01:00;191.6
+18;Roche d'or;Mont voie;16.03;649;587;10:30;02:30;207.63
+19;Mont voie;Epiquerez;9.31;530;519;13:00;02:00;216.94
+20;Epiquerez;Moulin Jeanottat;8.33;171;562;15:00;01:30;225.27
+21;Moulin Jeanottat;Saignelégier;7.8;635;139;16:30;02:00;233.07
+22;Saignelégier;Le Noirmont;5.83;158;169;18:30;01:00;238.9

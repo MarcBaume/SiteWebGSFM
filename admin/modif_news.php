@@ -36,7 +36,7 @@ try
 	
     ?>
 		<tr>
-			<form method="post" action="CibleDeleteNew.php">
+			<form method="post" action="delete_news.php">
 
 
 	<!-- ajout d'une cellule cacher avec la valeur de la catégorie -->

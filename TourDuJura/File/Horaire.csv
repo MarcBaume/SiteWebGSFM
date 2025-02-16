@@ -1,0 +1,65 @@
+V;Départ;Lieu Départ;Lieu Arrivée;Temps;KM déplacement;Heure Arrivée;Temps Pause;Lieu Pause;Nombre;Conducteur;Passager 1;Passager 2;Passager 3;Passager 4;Passager 42;Passager 5;Passager 6;Remarque
+Bus;05:15;Le Noirmont;Les Bois;00:12;9 km;05:27;00:20;;1;Marc;;;;;;;;
+Bus;05:47;Les Bois;Cerneux Godat;;;05:47;;;1;Marc;Eléonore;;;;;;;
+Bus;06:15;Cerneux Godat;Le Noirmont;00:12;9 km;06:27;01:00;Le Noirmont;5;Luca Ivone;Lise Foideveaux;Samuel Miserez;Chapatte Baptiste;Shaer Sébastin;;;;
+Départ;07:07;Montfaucon;Saignelégier;00:20;;07:27;;;1;Patrick Boegli;;;;;;;;Voiture privé Patrick Boegli
+Voiture;07:17;Saignelégier;Le Noirmont;00:10;;07:27;;;2;Patrick Boegli;Maude Cattin;;;;;;;
+Bus;07:27;Le Noirmont;Les Bois;00:07;6.9 km;07:34;;;5;Luca Ivone;Quinche Lisa;Quinche Séverine;Patrick Boegli;Maude Cattin;Chapatte Baptiste;Rini Nefs;Prétot yvan; Patrick Boegli (Voiture au Noirmont)
+Bus;08:00;Les Bois;Le Noirmont;00:07;;08:07;;;4;Marc;Patrick Jeanbourquin;Sébastien Gremaud;Pagani Livio;;;;;
+Bus;08:23;Le Noirmont;Saignlégier;00:07;;08:30;;;3;Marc;Patrick Jeanbourquin;Pagani Livio;;;;;;
+Bus;08:30;Saignlégier;Le Cerneux Veusil;00:30;;09:00;;;4;Marc;Patrick Jeanbourquin;Odile Spycher;Pagani Livio;;;;;
+Bus;09:00;Le Cerneux Veusil;Le Noirmont;00:14;12:1 km;09:14;;;6;Marc;Quinche Séverine;Quinche Lisa;Chapatte Baptiste;Patrick Boegli;Prétot Yvan;Maude Cattin;;(Alexis a amener sa voiture pour Noémie)
+Bus;10:00;Le Noirmont;Tramelan;00:30;5.6 km;10:30;;;1;Marc;;;;;;;;
+Bus;10:30;Tramelan;Saignelégier;00:15;10.5 km;10:45;;;4;Marc;Michel Kottelat;Rini Nefs;Pagani Livio;;;;;
+Bus;10:45;Saignelégier;Le Noirmont;00:15;;11:00;;;3;Marc;Rini Nefs;Pagani Livio;;;;;;
+Bus;11:00;Le Noirmont;Bellelay;00:30;;11:30;;;1;Marc;;;;;;;;
+Bus;11:30;Bellelay;Moutier;00:22;;11:52;01:45;;1;Marc;;;;;;;;
+Départ;13:37;Le Noirmont;Les Breuleux;00:07;;13:44;;;2;Hugette boilat paupe;Queloz Stéphane;;;;;;;Voiture privé départ du Noirmont
+Voiture;13:44;Les Breuleux;Moutier;00:31;;14:15;;;3;Hugette boilat paupe;Queloz Stéphane;Vincent Racine;;;;;;
+Bus;14:30;Moutier;Saignelégier;00:30;18.8 km;15:00;;;3;Marc;Odile Spycher;Montagnat Alexis;;;;;;Huguette Boillat-Paupe Viens par ces propres moyen a moutier et prend stephane et vincent 
+Bus;15:00;Saignelégier;Renan;00:22;;15:22;;;2;Marc;Montagnat Alexis;;;;;;;
+Bus;15:22;Renan;Delémont;00:27;26.9 km;15:49;;;1;Marc;;;;;;;;
+Voiture;15:30;St-Ursanne;Delémont;00:30;;16:00;;;1;Paupe Eric;;;;;;;;
+Bus;16:00;Delémont;Envelier;00:30;;16:30;;;2;Marc;Paupe Eric;;;;;;;
+Bus;16:30;Envelier;Moutier;00:10;;16:40;;;2;Marc;Huguette Boillat Paupe;;;;;;;
+Bus;16:40;Moutier;Mervelier;00:30;;17:10;;;1;Marc;;;;;;;;
+Retour;16:40;Moutier;Le Noirmont;00:30;;17:10;;;1;Hugette boilat paupe;;;;;;;;
+Bus;18:00;Mervelier;Delémont;;;18:00;;;2;Patrick Jeanbourquin;Boillat Steve;;;;;;;
+Départ;19:30;Les Breuleux;Glovelier;00:26;;19:56;;;3;Mavi;Enfants de vincent;;;;;;;Voiture privé
+Voiture;19:56;Glovelier;Delémont;00:26;;20:22;;;5;Mavi;Enfants de vincent;Léa Carnazzi;Fabien Degroot;;;;;Complet ( prévoir horaire large)
+Bus;18:45;Delémont;Montsevelier;00:45;;19:30;;;3;Patrick Jeanbourquin;Boillat Steve;Christophe Dousse;;;;;;
+Bus;19:30;Montsevelier;Glovelier;00:24;27.1 km;19:54;01:25;;1;Queloz Stéphane ;;;;;;;;Mavi vient avec léa et fabien  Vincent Repart avec sa voiture  et Patrick J et Boillat steve. Léa a déposer auparavant sa voiture a glovelier
+Retour;19:30;Montsevelier;Le Noirmont;00:40;;20:10;;;5;Vincent Racine;Enfants de vincent;Patrick Jeanbourquin;Boillat Steve;;;;;
+Départ;22:10;Le Noirmont;Glovelier;00:30;;22:40;;;1;Luca Ivone;;;;;;;;Voiture privé
+Bus;21:19;Glovelier;Delémont;00:15;19.1 km;21:34;;;3;Queloz Stéphane ;Luca Ivone;Claude Oeuvray;;;;;;Luca Ivone (Voiture a glovelier)
+Bus;22:45;Delémont;Ederswiller;00:10;9.7 km;22:55;;;1;Luca Ivone;;;;;;;;
+Bus;01:15;Ederswiller;Glovelier;00:25;28.7 km;01:40;00:15;;4;Marc;De Groote Fabien;Lea Carnazzi;Mavi Garcia;;;;;
+Bus;01:55;Glovelier;Lucelle;00:22;20.7 km ;02:17;;;2;Marc;Creti Matéo;;;;;;;
+Retour;01:40;Glovelier;Le Noirmont;;;01:40;;;3;De Groote Fabien;Lea Carnazzi;Mavi Garcia;;;;;;
+Bus;02:45;Lucelle;Glovelier;00:16;13.7 km;03:01;01:00;;2;Luca Ivone;;;;;;;;
+Départ;03:00;Renan;Le Noirmont;00:18;;03:18;;;1;Alexis Montagnat Rentier;;;;;;;;Voiture privé Alexis
+Passage;03:18;Le Noirmont;Glovelier;00:30;;03:48;;;2;Alexis Montagnat Rentier;Samuel Miserez;;;;;;;Voiture privé Alexis
+Bus;03:48;Glovelier;VendlinCourt;00:21;;04:09;;;3;Luca Ivone;Alexis Montagnat Rentier;Samuel Miserez;;;;;;
+Bus;04:45;VendlinCourt;Damphreux;00:13;4.8 km;04:58;;;2;Marc;Queloz Stéphane;;;;;;;
+Bus;05:30;Damphreux;Glovelier;00:20;22.6 km;05:50;00:45;Glovelier;3;Queloz Stéphane;Luca Ivone;Miserez Samuel;;;;;;Eléonore et Stéphanie vienne a Damphreux
+Bus;06:35;Glovelier;Bure;00:21;27.7 km;06:56;;;3;Queloz Stéphane;Patrick Boegli;Rini Nefs;;;;;;Patrick Boegli  (Voiture a glovelier)
+Retour;06:35;Glovelier;Le Noirmont;;;06:35;;;2;Luca Ivone;Miserez Samuel;;;;;;;
+Bus;07:30;Bure;Glovelier;00:21;27.7 km;07:51;;;2;Marc;Queloz Stéphane;Mattéo Créti;;;;;;
+Départ;07:25;Glovelier;Les Breuleux;00:45;;08:10;;;1;Vincent Racine;;;;;;;;
+Bus;07:50;Glovelier;Grand Fontaine;00:40;27.6 km;08:30;;;4;Marc;Queloz Stéphane;Vincent Racine;Steve Boillat;;;;;Queloz Stéphane ( Remonte avec Vincent)
+Bus;08:30;Grand Fontaine;Roche d'or;00:09;6.2 km;08:39;;;2;Patrick Boegli;Alexis Montganat-Rentier;;;;;;;
+Bus;09:30;Roche d'or;Glovelier;00:28;31 km;09:58;;Glovelier;2;Marc;Patrick Bogli;Alexis Montganat-Rentier;Rini Nefs;;;;;Piquerez alain (Voiture a glovelier)
+Retour;09:58;Glovelier;Le Noirmont;;;;;;1;Rini Nefs;;;;;;;;
+Retour;09:58;Glovelier;Renan;;;;;;1;Alexis Montagnat Rentier;;;;;;;;
+Depart;10:56;Saignelégier;Glovelier;00:40;;11:36;;;2;Piquerez Alain;Odile Spycher;;;;;;;
+Bus;11:36;Glovelier;Mont Voie;00:24;17.6 km;12:00;;;3;Marc;Piquerez Alain;Spycher Odile;;;;;;
+Bus;12:00;Mont Voie;Epiquerez;00:36;32 km;12:36;00:30;;1;Marc;;;;;;;;
+Départ;13:41;Les Breuleux;Epiquerez;00:19;13.7 km;14:00;;;5;Mavi;Patrick Chopard;Enfants a vincent;Aubry Adrien;;;;;
+Bus;14:00;Epiquerez;Glovelier;00:20;17.7 km;14:20;;;3;Marc ;Vincent Racine ;Piquerez alain;Eric Paupe;;;;;
+Bus;14:20;Glovelier;Montfaucon;00:14;14.4 km;14:34;;;1;Marc;;;;;;;;
+Bus;14:34;Montfaucon;Moulin Jeanottat;00:19;10 km;14:53;;;4;Marc;Cattin Yves André;Mael Chopard;Rini Nefs;;;;;
+Bus;15:30;Moulin Jeanottat;Montfaucon;00:19;;15:49;;;1;Patrick Boegli;;;;;;;;
+Bus;15:49;Montfaucon;Le Noirmont;00:11;;16:00;01:00;;1;Patrick Boegli;;;;;;;;
+Bus;17:00;Le Noirmont;Saignelegier;00:07;;17:07;;;1;Patrick Boegli;;;;;;;;
+Bus;17:30;Saignelegier;Le Noirmont;;;17:30;;;1;Marc;;;;;;;;
+;;;;;;;;;;;;;;;;;;
