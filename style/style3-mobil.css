@@ -2,17 +2,15 @@
 body
 {
  /*width: 100%; taille du navigateur  à modifier*/
-   width: auto;
-  margin: auto;
-	font-size:16px;
-	font-family: Candara, Times,arial;
-	margin:0 auto; /* Pour centrer notre page */
+	font-size: 20px;
+font-family: arial,"Times New Roman", Times, serif;
+   margin:0 auto; /* Pour centrer notre page */
    margin-top: 0px; /* Pour éviter de coller avec le haut de la fenêtre du navigateur. Essayez d'enlever pour voir ! */
    margin-bottom: 20px;    /* Idem pour le bas du navigateur */
    background: #d9f2ff;
- /* background:  url("../images/fond.jpg")50% 0 no-repeat;*/
    background-position: center;
    background-attachment:fixed; /* fond d'écran fixe*/
+   width: 1024px;
 }
 #tournoi td
 {
@@ -22,20 +20,57 @@ body
 {
     background: #b8e3fa;
 }
-.ImgVignette
+.title
 {
+	padding : 10px;
 	font-weight: bold;
 	font-size: 120%;
-	margin : 10px;	
-	border-radius: 0px 10px 0px 10px;
-background: #BBBBBB;
+	margin : 10px;
+	padding: 15px;
+	border-radius: 10px 10px 0px 0px;
+background: #1e8ac2;
  color: white;
- padding :5px;
+ border: 2px solid #555;
+	padding-left : 30px;
 }
 
+.paragraphe2
+{
+	padding : 10px;
+    border-radius: 0px 0px 10px 10px;
+	font-weight: normal;
+	font-size: 100%;
+	margin : 10px;
+background: #10ADFF;
+ color: black;
+	padding : 10px;
+    border: 2px solid #034D74;
+}
+.paragraphe
+{
+	padding : 10px;
+    border-radius: 0px 0px 10px 10px;
+	font-weight: normal;
+	font-size: 100%;
+	margin : 10px;
+background: #d9f2ff;
+ color: black;
+	padding : 10px;
+    border: 2px solid #555;
+}
+.paragraphe
+{
+	padding : 10px;
+	font-weight: normal;
+	font-size: 100%;
+	margin : 10px;
+background: #d9f2ff;
+ color: black;
+	padding : 10px;
+}
 .img
 {
-	 width: auto;
+	 width: 1024px;
 }
  .label 
  {
@@ -48,45 +83,13 @@ background: #BBBBBB;
 {
 	padding : 10px;
 	font-weight: bold;
-	font-size: 120%;
+	font-size: 18px;
 	margin : 10px;
 	margin-top: 30px;
-	margin-bottom: 0px;
-	padding: 15px;
-	border-radius: 10px 10px 10px 0px;
+	margin-bottom: 5px;
 background: #1e8ac2;
  color: white;
- border: 2px solid #555;
 	padding-left : 30px;
-}
-.imgIndex
-{
-	font-weight: bold;
-	font-size: 120%;
-	margin : 10px	
-	margin-top : 0px;
-	margin-bottom: 0px;
-	border-radius: 10px 0px 10px 0px;
-background: #BBBBBB;
- color: white;
- border: 2px solid #555;
-}
-
-.paragraphe
-{
-	padding : 10px;
-	font-weight: normal;
-	font-size: 100%;
-	margin : 10px;
-background: #d9f2ff;
- color: black;
-	padding : 10px;
-}
-/* Si on utilise un petit écran (que ce soit avec un ordinateur dans une petite fenêtre ou avec un smartphone), les titres sont réduits */
-@media only screen and (max-width: 320px) {
-.title {
-font-size: 3em;
-}
 }
 .titleCenter
 {
@@ -94,7 +97,7 @@ font-size: 3em;
 	text-align: center;
 	padding : 10px;
 	font-weight: bold;
-	font-size: 120%;
+	font-size: 20px;
 	margin-top: 20px;
 	margin-bottom: 5px;
 background: #00b4ff;
@@ -104,7 +107,7 @@ background: #00b4ff;
 	margin : 10px;
 	padding : 10px;
 	font-weight: bold;
-	font-size: 5em;
+	font-size: 16x;
 	margin-top: 10px;
 	margin-bottom: 10px;
 list-style-type: none;
@@ -116,8 +119,6 @@ background: #b3f3fa;
 .boldText{
     font-weight: bold;
 }
-
-
 #Information fieldset 
  {
   background: rgba(36, 174,232, 0.10); /* Une couleur de fond pour le corps */
@@ -137,7 +138,7 @@ background: #b3f3fa;
   margin: 0 auto;
  margin-top: 10px;
   margin-bottom: 10px;
-width: auto;
+width: 1024px;
  position: center;
 	height: 300px;
 	background:  url("../images/membre4.png")100%  0 no-repeat;
@@ -147,7 +148,7 @@ width: auto;
 {
   margin: 0 auto;
  margin-top: 10px;
-width: auto;
+width: 1024px;
 
 }
 #info fieldset
@@ -169,11 +170,7 @@ padding: 10px;
     display: block;
 	position:center;
     overflow: hidden;
-	width: auto;
-	height: auto;
-	
-	/*height: 40px;
-     background: #00b4ff rgba(48, 48, 48, 0.8); /* Une couleur de fond pour le corps */
+	width: 1024px;
 }
 #menuDeroulant
 {
@@ -205,7 +202,17 @@ list-style-type: none;/* enleve puce*/
  padding: 0;
  border: 0;
 }
+#menuDeroulant .sousMenu li
+{
 
+ float: none;
+ margin: 0;
+ padding: 0;
+ border: 0;
+ width: auto;
+ border-top: 1px solid #fff;
+ border-right: 1px solid #fff;
+}
 #info li
 {
 color: white;
@@ -224,7 +231,7 @@ width: 150px;
 
  float: left;
  padding: 0;
- border: 1px solid #fff;
+ border: 0;
  text-align : center;
 }
 #info li a:link, #info li a:visited
@@ -233,6 +240,7 @@ width: 150px;
 color: black;
  text-decoration: none;
 }
+
 #menuDeroulant  li 
 {
 	margin: 1.3%;
@@ -245,23 +253,21 @@ width:14%;
   background-color: #00b4ff;
    border-radius: 10px;
    cursor: pointer;
-   position: relative;
-
+      position: relative;
 }
-
-#menuDeroulant li:hover { background: #F2462E; }
-#menuDeroulant li:active { background: #5F879D; }
 #menuDeroulant li a {
+	text-decoration: none;
 	margin: 0;
 	display: block;
 	width: 100%;
-	text-decoration: none;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
+    transform: translateY(-50%);
 	 COLOR: #000;
 }
 
+#menuDeroulant li:hover { background-color: #F2462E; }
+#menuDeroulant li:active { background-color: #5F879D; }
 
 #menuDeroulant .sousMenu li a:hover
 {
@@ -274,11 +280,11 @@ text-align: left;
 }
 #corps
 {
-
+font-size: 20px;
 	
     margin: 0 auto;
 
-width: auto;
+width: 1024px;
  text-align: left; /* Pour centrer le titre */
 /*margin-top: 15px;*/
   position: center;
@@ -331,7 +337,7 @@ float: right;
 margin-right:15px;
 width:250px; 
 border: none;
-
+font-size: 15px;
   background: rgba(90, 90, 90, 0.5); /* Une couleur de fond pour le corps */
 	}
 	.imgCenter
@@ -348,8 +354,9 @@ margin:10px;
 padding-left: 10px; 
 padding-bottom: 2px; 
 padding-top: 2px; 
-position: center;
-border-radius: 10px;
+ position: center;
+ border-radius: 10px;
+ width: 980px;
 border: none;
 
   background: rgba(90, 90, 90, 0.5); /* Une couleur de fond pour le corps */
@@ -362,7 +369,7 @@ border: none;
 	margin : 10px;
 border-radius: 9px;
 background:  url("../images/fond_fieldset4.jpg") ;	
-
+font-size: 20px;
 }
 #news	 fieldset
 {
@@ -382,14 +389,14 @@ margin : 5%;
 }
 #TableauResulat 
 {
-	 width: auto;
+	 width: 100%;
 }
 #TableauResulat table
 {
 	margin:10px;
 	font-size: 12px;
 /*	    table-layout: fixed;*/
-   width: auto;
+   width: 100%;
      border-collapse: collapse;
  font-family: Arial, Helvetica, sans-serif;
 }
@@ -476,7 +483,7 @@ text-align: right;
 position:absolut; 
  text-align: center; /* Pour centrer le titre */
 font-size: 10px;
-width:auto;
+width: 1024px;
  bottom: 0;
 
 }
