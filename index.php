@@ -106,7 +106,7 @@ document.getElementById("image").style.backgroundImage = link
                                                 </table>
                                             </td>
                                             <td style ="width:50%">
-                                                <img class="ImgVignette" src=<?php echo $donnees['pathImage']  ?>  alt=""  />
+                                                <img class="ImgVignette" style="width:500px" src=<?php echo $donnees['pathImage']  ?>  alt=""  />
                                             </td>
                                         </tr>
                                     </table>
@@ -191,21 +191,6 @@ document.getElementById("image").style.backgroundImage = link
     <table style="width: 100%;margin-top : 40px">
         <Tr>
             <td>
-                <table style="width: 80%;margin:auto;cursor:pointer;"  onclick="location.href='https://www.gsfranches-montagnes.ch/photo.php'">
-				    <Tr>
-                        <td class="title">
-                            <a >Photos</a>
-                        </td>
-                    </tr>
-                    <Tr >
-                        <td class="paragraphe2">
-							
-                            <a  class="ImgVignette"><img src="vignettes/VignettesPhotos.jpg"   alt=""  /></a>
-                        </td>
-                    </tr> 
-                </table>
-            </td>
-            <td>
 				<table style="width: 80%;margin:auto;cursor:pointer;"  onclick="location.href='club.php'">
 					<Tr>
                         <td  class="title">
@@ -214,7 +199,7 @@ document.getElementById("image").style.backgroundImage = link
                     </tr>
 					<Tr >
                       <td class="paragraphe2">
-                            <a  class="ImgVignette"><img src="vignettes/VignettesClub.jpg"   alt=""  /></a>
+                            <a><img src="vignettes/VignettesClub.png" style="width:500px"   alt=""  /></a>
                         </td>
                     </tr>
                  
@@ -224,11 +209,8 @@ document.getElementById("image").style.backgroundImage = link
 
 	</table>
   
-    <div class="title">Sponsors club</div>
-    <div class="paragraphe2">
-        <img style="margin-left: 10%;margin-right: 10%; width:80%;" src="images/SponsorsClub.jpg"   alt=""  /></a>
-    </div>
-      
+         
+   <?php include ("sponsors.php"); ?>
    <?php include ("footer.php"); ?>
 </body>
 </html>

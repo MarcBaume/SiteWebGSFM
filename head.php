@@ -13,8 +13,8 @@
  
 		 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" media="only screen and (max-width: 400px)" href="/style/style3-mobil.css" />
-<link rel="stylesheet" media="only screen and (min-width: 401px)" href="/style/style21.css" />
+	<link rel="stylesheet" media="only screen and (max-width: 400px)" href="/style/style4-mobil.css" />
+<link rel="stylesheet" media="only screen and (min-width: 401px)" href="/style/style22.css" />
 	<!--<link rel="stylesheet" media="screen" type="text/css" title="style" href="" />
  Import Leaflet CSS Style Sheet -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
@@ -47,29 +47,53 @@
               <a  ><img style="width:400px;" src="images/logo_GSFM.png"   alt=""  /></a>
          </td>
          <td>
-             <table  style="display: block; float:right; margin:20px" >
-             <?php
-                 // On récupère tout le contenu de la table jeux_video
-                 $reponse = $bdd->query('SELECT * FROM news  ORDER BY num ASC');
-                 // On affiche chaque entrée une à une
-                 while ($donnees = $reponse->fetch())
-                 {?>
-                     <tr>
-                         <td class="title" style="margin-top:0px;">
-                             <i class="fa fa-bullhorn"  style= "font-size: 35px;"></i>
-                         <td>
-                         <td class="paragraphe" style="margin-top:0px;">
-                         <a > <?php echo $donnees['text'] ?> </a> 
-                         <td>
-                     </tr>
-                     <tr>
- 
-                     </tr>
-             <?php
-                 }   
-             ?>
-                 </table>
-         </td>
+            <table  style="display: block; float:right; margin:0px" >
+                
+                <tr>
+                    <td>
+                        <table  style="display: block; float:right; margin:0px" >
+                            <tr>
+                                <td>
+                                    <a class="bouton" href="index.php"><i class="fa fa-home"  style= "margin: auto;font-size: 40px;" ></i> <a>
+                                </td>
+                                <td>
+                                    <a class="bouton" href="club.php"><i class="fa fa-envelope-o"  style= "margin: auto;font-size: 40px;" ></i> <a>
+                                </td>
+                                <td>
+                                <a class="bouton" href="photo.php"><i class="fa fa-camera"  style= "margin: auto;font-size: 40px;" ></i> <a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                        <?php
+                            // On récupère tout le contenu de la table jeux_video
+                            $reponse = $bdd->query('SELECT * FROM news  ORDER BY num ASC');
+                            // On affiche chaque entrée une à une
+                            while ($donnees = $reponse->fetch())
+                            {?>
+                                <tr>
+                                    <td class="titleNews" style="margin-top:0px;">
+                                        <i class="fa fa-bullhorn"  style= "font-size: 35px;"></i>
+                                    </td>
+                                    <td class="paragrapheNews" style="margin-top:0px;">
+                                        <a > <?php echo $donnees['text'] ?> </a> 
+                                    </td>
+                                </tr>
+                                <tr>
+            
+                                </tr>
+                        <?php
+                            }   
+                        ?>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
      </tr>
  </table>
    <?php 
