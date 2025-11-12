@@ -13,6 +13,17 @@
  <h3> Album photo </h3>
  </div>
  <Div id="main">
+   <h2> 2025 </h2>
+ <fieldset>
+
+
+ <a href=" https://photos.app.goo.gl/hZFDhDF7yy9q4NL7A" class="lightbox"target="_blank"><img src="photo/cf25_adultes.jpg"  Height=170px alt="" title="Cliquez pour agrandir" /></a><a>   </a>
+   <a href=" https://photos.app.goo.gl/KZwR59cJd4wciMJz9" class="lightbox"target="_blank"><img src="photo/cf25_podamb.jpg"  Height=170px alt="" title="Cliquez pour agrandir" /></a><a>    </a>
+    <a href=" https://photos.app.goo.gl/S8d6R32tAcsYus7e9" class="lightbox"target="_blank"><img src="photo/cf25_enfants.jpg"  Height=170px alt="" title="Cliquez pour agrandir" /></a><a>   </a>
+
+ 
+ </fieldset>
+ </div>
  <h2> 2024 </h2>
  <fieldset>
  <a href=" https://photos.app.goo.gl/kj82X7fQdWBruUaS7" class="lightbox"target="_blank"><img src="photo/cf24_adultes2.jpg"  Height=170px alt="" title="Cliquez pour agrandir" /></a><a>   </a>

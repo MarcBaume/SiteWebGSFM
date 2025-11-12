@@ -57,10 +57,10 @@
                                     <a class="bouton" href="index.php"><i class="fa fa-home"  style= "margin: auto;font-size: 40px;" ></i> <a>
                                 </td>
                                 <td>
-                                    <a class="bouton" href="club.php"><i class="fa fa-envelope-o"  style= "margin: auto;font-size: 40px;" ></i> <a>
+                                    <a class="bouton" href="Pages/club.php"><i class="fa fa-envelope-o"  style= "margin: auto;font-size: 40px;" ></i> <a>
                                 </td>
                                 <td>
-                                <a class="bouton" href="photo.php"><i class="fa fa-camera"  style= "margin: auto;font-size: 40px;" ></i> <a>
+                                <a class="bouton" href="Pages/photo.php"><i class="fa fa-camera"  style= "margin: auto;font-size: 40px;" ></i> <a>
                                 </td>
                             </tr>
                         </table>
