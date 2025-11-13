@@ -1,11 +1,11 @@
 ﻿
 body
 {
- /*width: 100%; taille du navigateur  à modifier*/
    width: auto;
   margin: auto;
+  min-width: fit-content;
 	font-size:16px;
-	font-family: Candara, Times,arial;
+	font-family: Oldenburg, Times,arial;
 	margin:0 auto; /* Pour centrer notre page */
    margin-top: 0px; /* Pour éviter de coller avec le haut de la fenêtre du navigateur. Essayez d'enlever pour voir ! */
    margin-bottom: 20px;    /* Idem pour le bas du navigateur */

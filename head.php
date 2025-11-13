@@ -6,22 +6,19 @@
        <title>GSFM</title>
 	 
 <meta charset="utf-8"/> 
-	
+	  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Oldenburg">
   <meta name="viewport" content=" maximum-scale=1.0, user-scalable=yes">
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	     <meta name="viewport" content="width=device-width,min maximum-scale=1.0, user-scalable=yes">
  
 		 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" media="only screen and (max-width: 400px)" href="/style/style4-mobil.css" />
 <link rel="stylesheet" media="only screen and (min-width: 401px)" href="/style/style22.css" />
 	<!--<link rel="stylesheet" media="screen" type="text/css" title="style" href="" />
  Import Leaflet CSS Style Sheet -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 <!-- Import Leaflet JS Library -->
 <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-<script src="js/prototype.js" ></script>
-<script src="js/FonctionDefiChrono.js" ></script>
    </head>
    <body>
    <body>
@@ -57,10 +54,10 @@
                                     <a class="bouton" href="index.php"><i class="fa fa-home"  style= "margin: auto;font-size: 40px;" ></i> <a>
                                 </td>
                                 <td>
-                                    <a class="bouton" href="Pages/club.php"><i class="fa fa-envelope-o"  style= "margin: auto;font-size: 40px;" ></i> <a>
+                                    <a class="bouton" href="club.php"><i class="fa fa-envelope-o"  style= "margin: auto;font-size: 40px;" ></i> <a>
                                 </td>
                                 <td>
-                                <a class="bouton" href="Pages/photo.php"><i class="fa fa-camera"  style= "margin: auto;font-size: 40px;" ></i> <a>
+                                <a class="bouton" href="photo.php"><i class="fa fa-camera"  style= "margin: auto;font-size: 40px;" ></i> <a>
                                 </td>
                             </tr>
                         </table>
@@ -70,7 +67,7 @@
                     <td>
                         <table>
                         <?php
-                            // On récupère tout le contenu de la table jeux_video
+                            // On récupère tout le contenu de la table 
                             $reponse = $bdd->query('SELECT * FROM news  ORDER BY num ASC');
                             // On affiche chaque entrée une à une
                             while ($donnees = $reponse->fetch())
@@ -96,5 +93,8 @@
         </td>
      </tr>
  </table>
-   <?php 
+                        </br>
+   
+   </br>
+   </br><?php 
 setlocale (LC_TIME, 'fr_FR.utf8','fra');?>

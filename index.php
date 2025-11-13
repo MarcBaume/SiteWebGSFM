@@ -2,26 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
 
 <?php include("head.php"); ?>
- 
-<div id="image">
-<script>
-var myVar=setInterval(function(){myTimer()},4000);
-var MonTableau = ["membre1.png","membre2.png","membre3.png","membre4.png", "membre.png"];
-var i = 0;
-function myTimer() {		
-	i+= 1; 
-	if (i>4)
-	{
-	i=0;
-	}
-
-	var link = "url('images/" + MonTableau[i]+"')";
-document.getElementById("image").style.backgroundImage = link
-  
-}
-</script>
-  </div>
-  <table   style="width:90% ; margin : auto"  > 
+  <img id="images" src="images/membre.png" style="height:300px"></img>
+ <table   style="width:80% ; margin : auto">
+    
     <tr>
         <td class="title">
         <a >       <i class="fa fa-calendar-o"  style= "font-size: 24px;margin:10px;"></i>  Manifestations 
@@ -208,7 +191,31 @@ document.getElementById("image").style.backgroundImage = link
 		</tr>
 
 	</table>
-  
+  <script>
+var myVar=setInterval(function(){myTimer()},4000);
+var MonTableau = ["membre1.png","membre2.png","membre3.png","membre4.png", "membre.png"];
+var i = 0;
+function myTimer() {		
+	i+= 1; 
+	if (i>4)
+	{
+	i=0;
+	}
+    var link = "images/" + MonTableau[i];
+chageImg(document.getElementById("images"),link);
+}
+function chageImg(domImg,srcImage)
+    {
+        console.log("fun chg img");
+        var img = new Image();
+        img.onload = function()
+        {
+            // Load completed
+            domImg.src = this.src;
+        };
+        img.src = srcImage;
+    }
+</script>
          
    <?php include ("sponsors.php"); ?>
    <?php include ("footer.php"); ?>
