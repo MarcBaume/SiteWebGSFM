@@ -12,9 +12,29 @@
 
  <Div id="main">
 <div id="tournoi">
+<div class="title">Editions 2025</div>
+<div class="paragraphe">
+ <img id="images" src="images/Tournoi2025_2.jpg" style="height:300px;margin:auto;"></img>
+</div>
+ <div class="title"><i class="fa fa-trophy"  style= "font-size: 30px;"></i>  Résultats 2025 : Petit tournoi </div>
+<div class="paragraphe">
+	<p> 1 : Les mouillés d'chaud</p>
+	<p> 2 : Très cru</p>
+	<p> 3 : Les Rugueux </p>
+	<!--<p><a href="pdf/Classement final petit tournoi2024.pdf"target="_blank">classement final  </a></p>
+	<a href="images/Vainqueur petit tournoi 2023.jpg"  class="lightbox"><img src="images/Vainqueur petit tournoi 2023.jpg"  width="600"></img></a>-->
+</div>
+<div class="title"><i class="fa fa-trophy"  style= "font-size: 30px;"></i>  Résultats 2025 : Grand Tournoi </div>
+<div class="paragraphe">
+	<p> 1 : FC Bayern Monique</p>
+	<p> 2 : les Rastas Rhockey </p>
+	<p> 3 : HC Lugano </p>
+	<!--<p><a href="pdf/Classement final grand tournoi2024.pdf"target="_blank">classement final </a></p>
+	<a href="images/Les finalistes du Grand Tournoi2024.jpg"  class="lightbox"><img src="images/Les finalistes du Grand Tournoi2024.jpg" width="600"></img></a>-->
+</div>
 
-
-<div class="title">Informations</div>
+</div>
+<div class="title">Prochaine éditions </div>
 <div class="paragraphe">
 	<table style="width : 100%">
 		<tr >
@@ -22,7 +42,7 @@
 				<i class="fa fa-calendar-o"  style= "font-size: 35px;"></i>
 			</td>
 			<td>
-				samedi 22 novembre 2025
+				samedi 20 novembre 2026
 			</td>
 		</tr>
 		<tr style="Height : 20px">
@@ -155,3 +175,28 @@
 
 </html>
 
+<script>
+	var myVar=setInterval(function(){myTimer()},4000);
+var MonTableau = ["Tournoi2025_1.jpg","Tournoi2025_2.jpg","Tournoi2025_3.jpg","Tournoi2025_4.jpg"];
+var i = 0;
+function myTimer() {		
+	i+= 1; 
+	if (i>4)
+	{
+	i=0;
+	}
+    var link = "images/" + MonTableau[i];
+chageImg(document.getElementById("images"),link);
+}
+
+function chageImg(domImg,srcImage)
+    {
+        console.log("fun chg img");
+        var img = new Image();
+        img.onload = function()
+        {
+            // Load completed
+            domImg.src = this.src;
+        };
+        img.src = srcImage;
+    }</script>
